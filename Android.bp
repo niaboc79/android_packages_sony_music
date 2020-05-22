@@ -1,22 +1,2 @@
-android_app_import {
-    name: "SemcMusic",
-    apk: "prebuilt/priv-app/SemcMusic/SemcMusic.apk",
-    certificate: "releasekey",
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: false,
-    required: [
-        "privapp-permissions-sony"
-    ],
-}
 
-
-
-prebuilt_etc {
-    name: "privapp-permissions-sony",
-    sub_dir: "permissions",
-    src: "prebuilt/etc/permissions/privapp-permissions-sony.xml",
-    filename_from_src: true,
-}
 
